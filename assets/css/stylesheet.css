@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Barlow:wght@400;700&family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+    border-bottom: 1px solid #39A2DB;
+}
+
+.nav-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.logo a {
+    font-family: 'Barlow', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 0;
+    margin-left: 75px;
+    float: left;
+    color: #39A2DB;
+}
+
+.menu {
+    float: right;
+}
+
+
+nav ul {
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 75px 0 0;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 17px;
+    margin: 0;
+}
+
+nav ul li a:hover {
+    color: #39A2DB;
+    text-decoration: underline;
+}
+
+main {
+    font-family: 'Barlow', sans-serif;
+}
+
+.top-wrapper {
+    padding: 120px 0 120px 0;
+    margin-bottom: 70px;
+    /* background-image: url(https://prog-8.com/images/html/advanced/top_en.png); */
+    /* background-size: cover; */
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.top-wrapper h1 {
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    margin-top: 49px;
+    font-size: 28px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 100px;
+    float: left;
+    position: relative;
+    color: #39A2DB;
+    text-align: center;
+}
+
+.top-wrapper h1::before {
+    content: '';
+    position: absolute;
+    left: 98px;
+    bottom: -2px;
+    background-color: #39A2DB;
+    height: 4px;
+    box-sizing: border-box;
+    width: 250px;
+}
+
+
+.top-wrapper p {
+    opacity: 0.9;
+    padding: 0 100px;
+    margin-bottom: 3px;
+    color: black;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.btn-lanjut {
+    margin: 25px 0;
+    padding: 8px 50px;
+    color: #545353;
+    font-size: 26px;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    background: white;
+    border: 2px solid #545353;
+    transition: all 0s ease 0s;
+}
+
+.btn-lanjut:hover {
+    background: #545353;
+    color: white;
+    border: 2px solid #545353;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.about-wrapper {
+    height: 800px;
+    padding: 0 150px 100px 150px;
+    padding-bottom: 100px;
+    background-color: #f7f7f7;
+
+}
+
+.heading h2 {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    color: #353535;
+    text-align: center;
+    font-size: 53px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.about-wrapper h3 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 55px;
+    letter-spacing: 5.2px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #39A2DB;
+    margin-bottom: 10px;
+    line-height: 60px;
+}
+
+.small-height {
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 3px;
+    padding-bottom: 90px;
+    float: left;
+}
+
+.big-height {
+    float: left;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: justify;
+}
+
+.profile-wrapper {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+
+.profile-wrapper h2 {
+    color: #2a2828;
+    padding-bottom: 20px;
+    font-size: 53px;
+    letter-spacing: 5.2px;
+    text-transform: uppercase;
+}
+
+.profile-wrapper img {
+    width: 200px;
+}
+
+.profile-wrapper table {
+    padding: 30px 400px 0 420px;
+    text-align: left;
+}
+
+.profile-wrapper th {
+    color: #2a2828;
+    padding-right: 20px;
+}
+
+.partners-wrapper {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.partners-wrapper h2 {
+    color: #2a2828;
+    padding-bottom: 20px;
+    font-size: 53px;
+    letter-spacing: 5.2px;
+    text-transform: uppercase;
+}
+
+.kartu-partner {
+    width: 100%;
+    margin-left: 400;
+    margin-right: 400;
+    padding-top: 20px;
+}
+
+.kartu-partner img {
+    width: 260px;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #212121;
+    color: white;
+    padding: 70px 0;
+    line-height: 1.5;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.footer-col {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-weight: 500;
+    font-size: 27px;
+    margin-bottom: 27px;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    background-color: #39A2DB;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.footer-col ul li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+}
+
+.footer-col ul li a:hover {
+    color: #bbbbbb;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 12px 12px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: white;
+}
+
+.footer-bottom {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 35px;
+}
+
+.tombol-menu {
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.tombol-menu .garis {
+    height: 3px;
+    background-color: #3f72af;
+}

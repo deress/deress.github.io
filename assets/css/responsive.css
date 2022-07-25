@@ -1,0 +1,83 @@
+@media screen and (max-width: 1000px) {
+    .logo a {
+        font-size: 22px;
+        margin-left: 20px;
+    }
+
+    .top-wrapper {
+        padding: 0 auto;
+        margin: auto;
+    }
+
+    .top-wrapper h1 {
+        margin: 0;
+        padding: 10px;
+        font-size: 20px;
+        float: none;
+    }
+
+    .top-wrapper h1::before {
+        background-color: white;
+    }
+
+    .top-wrapper p {
+        padding: 40px 20px 20px 20px;
+    }
+
+    .btn-lanjut {
+        font-size: 20px;
+        margin-left: 72px;
+    }
+
+    .about-wrapper {
+        padding: 0 10px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .heading h2 {
+        font-size: 40px;
+    }
+
+    .about-wrapper h3 {
+        font-size: 25px;
+        text-align: center;
+        line-height: 30px;
+        padding-bottom: 5px;
+    }
+
+    .small-height {
+        font-size: 10px;
+        line-height: 20px;
+        float: none;
+        text-align: justify;
+        padding-bottom: 5px;
+    }
+
+    .big-height {
+        font-size: 10px;
+        line-height: 15px;
+        float: none;
+    }
+
+
+
+
+    .tombol-menu {
+        display: flex;
+        margin-top: 8px;
+    }
+
+    nav .menu {
+        display: none;
+    }
+
+    nav .menu.active {
+        display: flex;
+    }
+
+    nav ul li {
+        width: 100%;
+        border-bottom: 1px solid #333333;
+    }
+}
